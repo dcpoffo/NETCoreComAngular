@@ -1,0 +1,7 @@
+Caso o ng --version não funcionar,
+Set-ExecutionPolicy Unrestricted (powershell)
+
+Se clonar o projeto (projeto novo), deverão ser executados os comando abaixo:
+npm install --save-dev @angular-devkit/build-angular
+npm install
+ng serve -o
